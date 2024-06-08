@@ -186,8 +186,10 @@ else
         .Where(x => x.Level == Level.Green)
         .Select(x => new RoadmapTask
             {
+                Id = x.Id,
                 IconUrl = x.IconUrl,
                 Name = x.Title,
+                Slug = x.Slug,
                 IsCompleted = completedProjects.Contains(x.Id)
             })
             .ToList();
@@ -196,8 +198,10 @@ else
         .Where(x => x.Level == Level.Green)
         .Select(x => new RoadmapTask
             {
+                Id = x.Id,
                 IconUrl = x.IconUrl,
                 Name = x.Title,
+                Slug = x.Slug,
                 IsCompleted = completedProjects.Contains(x.Id)
             })
             .ToList();
@@ -220,8 +224,10 @@ else
         .Where(x => x.Level == Level.OliveGreen)
         .Select(x => new RoadmapTask
             {
+                Id = x.Id,
                 IconUrl = x.IconUrl,
                 Name = x.Title,
+                Slug = x.Slug,
                 IsCompleted = completedProjects.Contains(x.Id)
             })
             .ToList();
@@ -242,8 +248,10 @@ else
         .Where(x => x.Level == Level.Yellow)
         .Select(x => new RoadmapTask
             {
+                Id = x.Id,
                 IconUrl = x.IconUrl,
                 Name = x.Title,
+                Slug = x.Slug,
                 IsCompleted = completedProjects.Contains(x.Id)
             })
             .ToList();
@@ -264,8 +272,10 @@ else
         .Where(x => x.Level == Level.Orange)
         .Select(x => new RoadmapTask
             {
+                Id = x.Id,
                 IconUrl = x.IconUrl,
                 Name = x.Title,
+                Slug = x.Slug,
                 IsCompleted = completedProjects.Contains(x.Id)
             })
             .ToList();
@@ -286,8 +296,10 @@ else
         .Where(x => x.Level == Level.Red)
         .Select(x => new RoadmapTask
             {
+                Id = x.Id,
                 IconUrl = x.IconUrl,
                 Name = x.Title,
+                Slug = x.Slug,
                 IsCompleted = completedProjects.Contains(x.Id)
             })
             .ToList();
@@ -378,8 +390,10 @@ else
         .Where(x => x.Level == Level.Brown)
         .Select(x => new RoadmapTask
             {
+                Id = x.Id,
                 IconUrl = x.IconUrl,
                 Name = x.Title,
+                Slug = x.Slug,
                 IsCompleted = completedProjects.Contains(x.Id)
             })
             .ToList();
@@ -492,8 +506,10 @@ else
        .Where(x => x.Level == Level.Blue)
        .Select(x => new RoadmapTask
            {
+               Id = x.Id,
                IconUrl = x.IconUrl,
                Name = x.Title,
+               Slug = x.Slug,
                IsCompleted = completedProjects.Contains(x.Id)
            })
            .ToList();
@@ -562,8 +578,10 @@ else
                 .Where(x => x.Area == Area.MAUI)
                 .Select(x => new RoadmapTask
                     {
+                        Id = x.Id,
                         IconUrl = x.IconUrl,
                         Name = x.Title,
+                        Slug = x.Slug,
                         IsCompleted = completedProjects.Contains(x.Id)
                     })
                     .ToList()
@@ -576,8 +594,10 @@ else
                 .Where(x => x.Area == Area.MVC)
                 .Select(x => new RoadmapTask
                     {
+                        Id = x.Id,
                         IconUrl = x.IconUrl,
                         Name = x.Title,
+                        Slug = x.Slug,
                         IsCompleted = completedProjects.Contains(x.Id)
                     })
                     .ToList()
@@ -590,8 +610,10 @@ else
                 .Where(x => x.Area == Area.React)
                 .Select(x => new RoadmapTask
                     {
+                        Id = x.Id,
                         IconUrl = x.IconUrl,
                         Name = x.Title,
+                        Slug = x.Slug,
                         IsCompleted = completedProjects.Contains(x.Id)
                     })
                     .ToList()
@@ -604,8 +626,10 @@ else
                 .Where(x => x.Area == Area.Angular)
                 .Select(x => new RoadmapTask
                     {
+                        Id = x.Id,
                         IconUrl = x.IconUrl,
                         Name = x.Title,
+                        Slug = x.Slug,
                         IsCompleted = completedProjects.Contains(x.Id)
                     })
                     .ToList()
@@ -618,8 +642,10 @@ else
                 .Where(x => x.Area == Area.Blazor)
                 .Select(x => new RoadmapTask
                     {
+                        Id = x.Id,
                         IconUrl = x.IconUrl,
                         Name = x.Title,
+                        Slug = x.Slug,
                         IsCompleted = completedProjects.Contains(x.Id)
                     })
                     .ToList()
